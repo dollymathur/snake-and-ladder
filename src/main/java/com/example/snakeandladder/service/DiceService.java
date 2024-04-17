@@ -1,8 +1,5 @@
 package com.example.snakeandladder.service;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class DiceService {
 
     public int getTotalRollValue(int diceCount) {
