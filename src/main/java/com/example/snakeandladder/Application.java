@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Application {
+    // Question - https://workat.tech/machine-coding/article/how-to-practice-for-machine-coding-kp0oj3sw2jca
+    // Solution - https://workat.tech/machine-coding/editorial/how-to-design-snake-and-ladder-machine-coding-ehskk9c40x2w
 
     public static void main(String[] args) {
         System.out.println("Assigning values");
