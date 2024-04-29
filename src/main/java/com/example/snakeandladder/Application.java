@@ -29,10 +29,10 @@ public class Application {
         ladders.add(new Ladder(16, 24));
         ladders.add(new Ladder(9, 20));
 
-        Game game = new Game(25, players.size(), players, snakes, ladders);
-        GameWithMultipleDice gameWithMultipleDice = new GameWithMultipleDice(game);
+        Game game = new GameWithMultipleDice(25, players.size(), players, snakes, ladders, 2);
+        //Game game = new Game(25, players.size(), players, snakes, ladders);
 
-        GameService gameService = new GameService(gameWithMultipleDice, 0, false, new DiceService());
+        GameService gameService = new GameService(game, 0, false, new DiceService());
 
         gameService.startGame();
 
